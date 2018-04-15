@@ -13,6 +13,7 @@ exit
 vi .env
 vi mysql/my.cnf
 docker-compose up -d php-fpm nginx mysql
+docker exec -it laradock_workspace_1 php artisan migrate
 ```
 
 # Url
